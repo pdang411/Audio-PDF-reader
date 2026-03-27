@@ -1,0 +1,32 @@
+services:
+  app:
+    build: .
+    container_name: pdf_reader_app
+    ports:
+      - "8501:8501"
+    environment:
+      - TTS_BASE_URL=http://piper:5000
+    volumes:
+      - ./models:/app/models
+      - .:/app
+    depends_on:
+      piper:
+        condition: service_started
+    restart: unless-stopped
+    command: streamlit run app.py --server.address=0.0.0.0 --server.port=8501
+
+  piper:
+    build: .
+    container_name: piper_tts
+    ports:
+      - "5000:5000"
+    environment:
+      - MODEL=en_GB-cori-medium
+      - DATA_DIR=/app/data
+      - HOST=0.0.0.0
+      - PORT=5000
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+    command: python piper_ui.py
+    restart: unless-stopped

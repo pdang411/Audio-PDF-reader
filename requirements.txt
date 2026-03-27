@@ -1,0 +1,15 @@
+streamlit
+requests
+pydub
+PyPDF2
+pymupdf
+imageio-ffmpeg
+piper-tts[http]
+ffmpeg-python
+speechrecognition
+fastapi
+uvicorn
+jinja2
+pytesseract
+Pillow
+pdf2image

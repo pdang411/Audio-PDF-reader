@@ -1,0 +1,5 @@
+# Ignore ONNX model files
+data/*.onnx
+
+# Ignore model metadata jsons if desired
+data/*.onnx.json

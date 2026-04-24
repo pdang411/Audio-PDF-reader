@@ -111,6 +111,8 @@ Two containers run together:
 - Install Tesseract: `sudo apt-get install tesseract-ocr`
 - Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
 
+### PIPER TTS SET UP VOICE MODEL
+
 Piper TTS set up once your docker container is running go to http://localhost:5000/ui to download Voice model for Piper TTS
 
 <img width="2514" height="1370" alt="Piper TTS set up 1" src="https://github.com/user-attachments/assets/eb1e39b6-5f9d-4be3-8e0d-4e16f7e763c4" />

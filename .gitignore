@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.git/
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+*.log
+data/*.onnx
+data/*.onnx.json
+!data/.gitkeep
+.streamlit/
+*.wav
+*.mp3
+.env
+.DS_Store

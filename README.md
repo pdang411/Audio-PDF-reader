@@ -82,9 +82,13 @@ Prefix commands with "pdf":
 
 Piper TTS set up once your docker container is running go to http://localhost:5000/ui to download Voice model for Piper TTS
 
-<img width="2514" height="1370" alt="Piper TTS set up 1" src="https://github.com/user-attachments/assets/eb1e39b6-5f9d-4be3-8e0d-4e16f7e763c4" />
 
-<img width="2498" height="1376" alt="Piper TTS set up" src="https://github.com/user-attachments/assets/841eb869-897f-411b-a881-20a8be755dc7" />
+
+<img width="2545" height="1257" alt="piperui1" src="https://github.com/user-attachments/assets/9ef66c13-9ff1-43f7-aa02-86c2b88b1403" />
+
+
+<img width="2531" height="1243" alt="piperui2" src="https://github.com/user-attachments/assets/c805830c-955c-464e-a2ad-326e2be43fb9" />
+
 
 ## License
 
